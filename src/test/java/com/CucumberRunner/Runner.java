@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue = "com.StepDefination",
 		plugin = "html:./CucumberReport/report.html",
 		dryRun = false,
-		tags = "@DataDriven"
+		tags = "@DataDriven"       
 		)
 public class Runner extends AbstractTestNGCucumberTests {
 
