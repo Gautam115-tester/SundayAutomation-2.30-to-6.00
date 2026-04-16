@@ -11,5 +11,4 @@ import io.cucumber.testng.CucumberOptions;
 		tags = "@DataDriven"       
 		)
 public class Runner extends AbstractTestNGCucumberTests {
-
 }
