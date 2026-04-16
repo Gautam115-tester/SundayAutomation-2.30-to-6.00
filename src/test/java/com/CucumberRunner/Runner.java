@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = "FeaturesFileFolder", // folder level name
 		glue = "com.StepDefination",
-		plugin = "html:./CucumberReport/report.html",
+		plugin = {"html:./CucumberReport/report.html","json:./CucumberReport/report.json"},
 		dryRun = false,
 		tags = "@DataDriven"       
 		)
